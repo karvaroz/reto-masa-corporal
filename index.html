@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>IMC</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="title">Calculadora - IMC</div>
+        <div class="input">
+          <label>Sexo:</label>
+          <button><i class="fa-solid fa-person-dress"></i></button> |
+
+          <button><i class="fa-solid fa-person"></i></button>
+        </div>
+        <div class="input">
+          <label>Nombre:</label>
+          <input type="text" id="nombre" required />
+        </div>
+        <div class="input">
+          <label>Altura:</label>
+          <input type="number" id="altura" required /> M
+        </div>
+        <div class="input">
+          <label>Peso:</label>
+          <input type="number" id="peso" required /> KG
+        </div>
+        <button id="btn">Calcular</button>
+      </div>
+      <div class="container">
+        <h2 class="title">Resultado</h2>
+        <div class="result" id="resultado"></div>
+
+        <div class="clasificacion">
+          <p>
+            <i class="fa-solid fa-weight-scale" style="color: blue">
+              Bajo Peso</i
+            >
+          </p>
+          <p>
+            <i class="fa-solid fa-weight-scale" style="color: green">
+              Saludable</i
+            >
+          </p>
+          <p >
+            <i class="fa-solid fa-weight-scale" style="color: yellow">
+              Exceso de peso</i
+            >
+          </p>
+          <p>
+            <i class="fa-solid fa-weight-scale" style="color: red"> Obeso</i>
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="imc.js"></script>
+  </body>
+</html>
