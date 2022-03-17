@@ -1,0 +1,109 @@
+{
+    "usuarios": [
+        {
+            "nombre": "Juan",
+            "altura": 170,
+            "peso": 80,
+            "valorIMC": 27.68,
+            "categoria": "Sobrepeso"
+        },
+        {
+            "nombre": "Angie",
+            "altura": 162,
+            "peso": 55,
+            "valorIMC": 20.96,
+            "categoria": "Saludable"
+        },
+        {
+            "nombre": "Luis",
+            "altura": 175,
+            "peso": 50,
+            "valorIMC": 16.33,
+            "categoria": "Bajo Peso"
+        },
+        {
+            "nombre": "Cristina",
+            "altura": 175,
+            "peso": 80,
+            "valorIMC": 26.12,
+            "categoria": "Sobrepeso"
+        },
+        {
+            "nombre": "Jhon",
+            "altura": 165,
+            "peso": 70,
+            "valorIMC": 25.71,
+            "categoria": "Sobrepeso"
+        },
+        {
+            "nombre": "Carlos",
+            "altura": 165,
+            "peso": 52,
+            "valorIMC": 19.10,
+            "categoria": "Saludable"
+        },
+        {
+            "nombre": "Eliza",
+            "altura": 180,
+            "peso": 53,
+            "valorIMC": 16.36,
+            "categoria": "Bajo Peso"
+        },
+        {
+            "nombre": "Vanesa",
+            "altura": 155,
+            "peso": 56,
+            "valorIMC": 23.31,
+            "categoria": "Saludable"
+        },
+        {
+            "nombre": "Valentina",
+            "altura": 185,
+            "peso": 80,
+            "valorIMC": 23.37,
+            "categoria": "Saludable"
+        },
+        {
+            "nombre": "Veronica",
+            "altura": 170,
+            "peso": 80,
+            "valorIMC": 27.68,
+            "categoria": "saludable"
+        },
+        {
+            "nombre": "Diego",
+            "altura": 170,
+            "peso": 80,
+            "valorIMC": 7.68,
+            "categoria": "Bajo Peso"
+        },
+        {
+            "nombre": "Liliana",
+            "altura": 170,
+            "peso": 80,
+            "valorIMC": 27.68,
+            "categoria": "Bajo Peso"
+        },
+        {
+            "nombre": "Mayra",
+            "altura": 170,
+            "peso": 80,
+            "valorIMC": 27.68,
+            "categoria": "Sobrepeso"
+        },
+        {
+            "nombre": "Fernando",
+            "altura": 170,
+            "peso": 80,
+            "valorIMC": 27.68,
+            "categoria": "Bajo Peso"
+        },
+        {
+            "nombre": "Sebastian",
+            "altura": 170,
+            "peso": 80,
+            "valorIMC": 27.68,
+            "categoria": "Sobrepeso"
+        }
+    ]
+}
