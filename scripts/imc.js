@@ -22,3 +22,5 @@ btn.addEventListener("click", () => {
   }
   resultado.textContent = `${nombre} tu IMC es ${valorIMC.toFixed(2)}, usted esta: ${clasificado}`;
 });
+
+

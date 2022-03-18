@@ -36,9 +36,7 @@ main {
   height: 50px;
   justify-content: space-between;
   align-items: center;
-
 }
-
 
 .input label {
   font: bold 1.5rem serif;
@@ -69,4 +67,10 @@ button {
   padding: 20px;
   box-sizing: border-box;
   user-select: none;
+}
+
+#usuarios {
+  text-align: center;
+  color: grey;
+  border: solid 5px grey;
 }
