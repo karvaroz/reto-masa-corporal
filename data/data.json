@@ -75,7 +75,7 @@
             "altura": 170,
             "peso": 80,
             "valorIMC": 7.68,
-            "categoria": "Bajo Peso"
+            "categoria": "Sobrepeso"
         },
         {
             "nombre": "Liliana",
@@ -103,7 +103,7 @@
             "altura": 170,
             "peso": 80,
             "valorIMC": 27.68,
-            "categoria": "Sobrepeso"
+            "categoria": "saludable"
         }
     ]
 }
