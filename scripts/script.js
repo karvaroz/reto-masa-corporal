@@ -1,5 +1,4 @@
 let form = document.querySelector("form");
-let usuarios = document.getElementById("usuarios");
 
 form.addEventListener("submit", (e) => {
   let name = document.getElementById("nombre").value;
@@ -19,12 +18,21 @@ document.addEventListener("submit", () => {
   let name = localStorage.getItem("nombreUsuario");
   let altura = localStorage.getItem("alturaUsuario");
   let peso = localStorage.getItem("pesoUsuario");
-  let valor = parseFloat(peso / ((altura / 100) * (altura / 100)));
-  usuarios.innerHTML = ` 
-        <h1>
-            ${name}, tiene una altura de: 
-            ${altura} y un peso de: ${peso}. 
-            Su IMC es: ${valor.toFixed(2)}
-        </h1>
-    `;
+  let valorIMC = parseFloat(peso / ((altura / 100) * (altura / 100)));
+  let resultado = document.getElementById("resultado");
+
+  if (valorIMC < 18.5) {
+    clasificado = "Por debajo del peso";
+  } else if (valorIMC >= 18.5 && valorIMC <= 24.9) {
+    clasificado = "Saludable";
+  } else if (valorIMC >= 25 && valorIMC <= 29.9) {
+    clasificado = "Con sobrepeso";
+  } else if (valorIMC >= 30 && valorIMC <= 39.9) {
+    clasificado = "Obeso";
+  } else if (valorIMC > 40) {
+    clasificado = "Obesidad extrema o de alto riesgo";
+  }
+  resultado.textContent = `${name} tu IMC es ${valorIMC.toFixed(
+    2
+  )}, usted esta: ${clasificado}`;
 });
