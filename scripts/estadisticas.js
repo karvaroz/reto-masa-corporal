@@ -2,12 +2,7 @@ const ctx = document.getElementById("myChart").getContext("2d");
 const myChart = new Chart(ctx, {
   type: "bar",
   data: {
-    labels: [
-      "Saludable",
-      "Bajo Peso",
-      "Sobrepeso",
-
-    ],
+    labels: ["Saludable", "Bajo Peso", "Sobrepeso"],
     datasets: [
       {
         label: "Número de personas por estado fisico",
